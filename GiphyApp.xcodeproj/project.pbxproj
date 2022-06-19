@@ -7,23 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4824A0FAFB56DD7DB8644834 /* Pods_GiphyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5CF4596190B60B186CBDFF /* Pods_GiphyApp.framework */; };
 		8E4B3F48285DC7CB00F4DBB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F47285DC7CB00F4DBB2 /* AppDelegate.swift */; };
 		8E4B3F4A285DC7CB00F4DBB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F49285DC7CB00F4DBB2 /* SceneDelegate.swift */; };
-		8E4B3F4C285DC7CB00F4DBB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F4B285DC7CB00F4DBB2 /* ViewController.swift */; };
-		8E4B3F4F285DC7CB00F4DBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F4D285DC7CB00F4DBB2 /* Main.storyboard */; };
 		8E4B3F51285DC7CD00F4DBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F50285DC7CD00F4DBB2 /* Assets.xcassets */; };
-		8E4B3F54285DC7CD00F4DBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F52285DC7CD00F4DBB2 /* LaunchScreen.storyboard */; };
+		8E4B3F5C285DC84100F4DBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F5B285DC84100F4DBB2 /* Main.storyboard */; };
+		8E4B3F5E285DC84C00F4DBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F5D285DC84C00F4DBB2 /* LaunchScreen.storyboard */; };
+		8E4B3F6F285DC91F00F4DBB2 /* GAImageLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F6E285DC91F00F4DBB2 /* GAImageLoaderProtocol.swift */; };
+		8E4B3F71285DC92E00F4DBB2 /* GAImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F70285DC92E00F4DBB2 /* GAImageLoader.swift */; };
+		8E4B3F73285DC94200F4DBB2 /* GAFavouriteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F72285DC94200F4DBB2 /* GAFavouriteStorage.swift */; };
+		8E4B3F75285DC95200F4DBB2 /* GAImageCachingCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F74285DC95200F4DBB2 /* GAImageCachingCore.swift */; };
+		8E4B3F77285DC96300F4DBB2 /* GAFavouritesPlistBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F76285DC96300F4DBB2 /* GAFavouritesPlistBuilder.swift */; };
+		8E4B3F79285DC97700F4DBB2 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F78285DC97700F4DBB2 /* loader.gif */; };
+		8E4B3F7B285DC9CE00F4DBB2 /* GASearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F7A285DC9CE00F4DBB2 /* GASearchView.swift */; };
+		8E4B3F7D285DC9DD00F4DBB2 /* GAListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F7C285DC9DD00F4DBB2 /* GAListingView.swift */; };
+		8E4B3F80285DC9F700F4DBB2 /* GAFullLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F7F285DC9F700F4DBB2 /* GAFullLoader.swift */; };
+		8E4B3F82285DCA0500F4DBB2 /* GASegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F81285DCA0500F4DBB2 /* GASegmentView.swift */; };
+		8E4B3F84285DCA1A00F4DBB2 /* GAGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F83285DCA1A00F4DBB2 /* GAGridView.swift */; };
+		8E4B3F86285DCA3100F4DBB2 /* GAFavouriteTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F85285DCA3100F4DBB2 /* GAFavouriteTableCell.swift */; };
+		8E4B3F88285DCA3D00F4DBB2 /* GAFavouriteGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F87285DCA3D00F4DBB2 /* GAFavouriteGridCell.swift */; };
+		8E4B3F8B285DCA4B00F4DBB2 /* GAFavouriteTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F89285DCA4B00F4DBB2 /* GAFavouriteTableCell.xib */; };
+		8E4B3F8C285DCA4B00F4DBB2 /* GAFavouriteGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F8A285DCA4B00F4DBB2 /* GAFavouriteGridCell.xib */; };
+		8E4B3F8E285DCA5C00F4DBB2 /* GAFavUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F8D285DCA5C00F4DBB2 /* GAFavUseCase.swift */; };
+		8E4B3F90285DCA6B00F4DBB2 /* GAFavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F8F285DCA6B00F4DBB2 /* GAFavouriteViewController.swift */; };
+		8E4B3F92285DCA7A00F4DBB2 /* GAFavouriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F91285DCA7A00F4DBB2 /* GAFavouriteViewModel.swift */; };
+		8E4B3F94285DCA8E00F4DBB2 /* GAListingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F93285DCA8E00F4DBB2 /* GAListingViewCell.swift */; };
+		8E4B3F96285DCA9400F4DBB2 /* GAListingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3F95285DCA9400F4DBB2 /* GAListingViewCell.xib */; };
+		8E4B3F98285DCAA200F4DBB2 /* GAHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F97285DCAA200F4DBB2 /* GAHomeViewController.swift */; };
+		8E4B3F9A285DCAAE00F4DBB2 /* GAHomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F99285DCAAE00F4DBB2 /* GAHomeUseCase.swift */; };
+		8E4B3F9C285DCABC00F4DBB2 /* GAHomeUseCaseURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F9B285DCABC00F4DBB2 /* GAHomeUseCaseURLBuilder.swift */; };
+		8E4B3F9E285DCAC800F4DBB2 /* GAHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F9D285DCAC800F4DBB2 /* GAHomeViewModel.swift */; };
+		8E4B3FA0285DCADF00F4DBB2 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3F9F285DCADF00F4DBB2 /* AppStrings.swift */; };
+		8E4B3FA2285DCAFA00F4DBB2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FA1285DCAFA00F4DBB2 /* UITableView+Extension.swift */; };
+		8E4B3FA4285DCB0900F4DBB2 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FA3285DCB0900F4DBB2 /* UITableViewCell+Extension.swift */; };
+		8E4B3FA6285DCB1600F4DBB2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FA5285DCB1600F4DBB2 /* UIImage+Extension.swift */; };
+		8E4B3FA8285DCB2300F4DBB2 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FA7285DCB2300F4DBB2 /* UIImageView+Extension.swift */; };
+		8E4B3FAA285DCB3400F4DBB2 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FA9285DCB3400F4DBB2 /* UICollectionView+Extension.swift */; };
+		8E4B3FAC285DCB4F00F4DBB2 /* GABackendProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FAB285DCB4F00F4DBB2 /* GABackendProtocol.swift */; };
+		8E4B3FAE285DCB5B00F4DBB2 /* GABackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FAD285DCB5B00F4DBB2 /* GABackendService.swift */; };
+		8E4B3FB0285DCB6B00F4DBB2 /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FAF285DCB6B00F4DBB2 /* GIF.swift */; };
+		8E4B3FB2285DCB7800F4DBB2 /* Downsized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FB1285DCB7800F4DBB2 /* Downsized.swift */; };
+		8E4B3FB4285DCB8400F4DBB2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FB3285DCB8400F4DBB2 /* Images.swift */; };
+		8E4B3FB6285DCB9000F4DBB2 /* Original.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FB5285DCB9000F4DBB2 /* Original.swift */; };
+		8E4B3FB8285DCBB200F4DBB2 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FB7285DCBB200F4DBB2 /* Pagination.swift */; };
+		8E4B3FBA285DCBC200F4DBB2 /* AllGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FB9285DCBC100F4DBB2 /* AllGIF.swift */; };
+		8E4B3FBC285DCBCD00F4DBB2 /* GIFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FBB285DCBCD00F4DBB2 /* GIFModel.swift */; };
+		8E4B3FBE285DCBDA00F4DBB2 /* FavouriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FBD285DCBDA00F4DBB2 /* FavouriteModel.swift */; };
+		8E4B3FC5285DD5ED00F4DBB2 /* dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3FC4285DD5ED00F4DBB2 /* dev.xcconfig */; };
+		8E4B3FC8285DD62E00F4DBB2 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3FC6285DD62D00F4DBB2 /* debug.xcconfig */; };
+		8E4B3FC9285DD62E00F4DBB2 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B3FC7285DD62E00F4DBB2 /* release.xcconfig */; };
+		8E4B3FCB285DD75300F4DBB2 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B3FCA285DD75300F4DBB2 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C5CF4596190B60B186CBDFF /* Pods_GiphyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiphyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E6E12EAD020A369F2D0EAF /* Pods-GiphyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiphyApp.release.xcconfig"; path = "Target Support Files/Pods-GiphyApp/Pods-GiphyApp.release.xcconfig"; sourceTree = "<group>"; };
+		764B279681AEA5BC9ACDA373 /* Pods-GiphyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiphyApp.debug.xcconfig"; path = "Target Support Files/Pods-GiphyApp/Pods-GiphyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8E4B3F44285DC7CB00F4DBB2 /* GiphyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiphyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4B3F47285DC7CB00F4DBB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E4B3F49285DC7CB00F4DBB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E4B3F4B285DC7CB00F4DBB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E4B3F4E285DC7CB00F4DBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E4B3F50285DC7CD00F4DBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E4B3F53285DC7CD00F4DBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E4B3F55285DC7CD00F4DBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4B3F5B285DC84100F4DBB2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8E4B3F5D285DC84C00F4DBB2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E4B3F6E285DC91F00F4DBB2 /* GAImageLoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAImageLoaderProtocol.swift; sourceTree = "<group>"; };
+		8E4B3F70285DC92E00F4DBB2 /* GAImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAImageLoader.swift; sourceTree = "<group>"; };
+		8E4B3F72285DC94200F4DBB2 /* GAFavouriteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFavouriteStorage.swift; sourceTree = "<group>"; };
+		8E4B3F74285DC95200F4DBB2 /* GAImageCachingCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAImageCachingCore.swift; sourceTree = "<group>"; };
+		8E4B3F76285DC96300F4DBB2 /* GAFavouritesPlistBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFavouritesPlistBuilder.swift; sourceTree = "<group>"; };
+		8E4B3F78285DC97700F4DBB2 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		8E4B3F7A285DC9CE00F4DBB2 /* GASearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASearchView.swift; sourceTree = "<group>"; };
+		8E4B3F7C285DC9DD00F4DBB2 /* GAListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAListingView.swift; sourceTree = "<group>"; };
+		8E4B3F7F285DC9F700F4DBB2 /* GAFullLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFullLoader.swift; sourceTree = "<group>"; };
+		8E4B3F81285DCA0500F4DBB2 /* GASegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASegmentView.swift; sourceTree = "<group>"; };
+		8E4B3F83285DCA1A00F4DBB2 /* GAGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAGridView.swift; sourceTree = "<group>"; };
+		8E4B3F85285DCA3100F4DBB2 /* GAFavouriteTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFavouriteTableCell.swift; sourceTree = "<group>"; };
+		8E4B3F87285DCA3D00F4DBB2 /* GAFavouriteGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFavouriteGridCell.swift; sourceTree = "<group>"; };
+		8E4B3F89285DCA4B00F4DBB2 /* GAFavouriteTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAFavouriteTableCell.xib; sourceTree = "<group>"; };
+		8E4B3F8A285DCA4B00F4DBB2 /* GAFavouriteGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAFavouriteGridCell.xib; sourceTree = "<group>"; };
+		8E4B3F8D285DCA5C00F4DBB2 /* GAFavUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFavUseCase.swift; sourceTree = "<group>"; };
+		8E4B3F8F285DCA6B00F4DBB2 /* GAFavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFavouriteViewController.swift; sourceTree = "<group>"; };
+		8E4B3F91285DCA7A00F4DBB2 /* GAFavouriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFavouriteViewModel.swift; sourceTree = "<group>"; };
+		8E4B3F93285DCA8E00F4DBB2 /* GAListingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAListingViewCell.swift; sourceTree = "<group>"; };
+		8E4B3F95285DCA9400F4DBB2 /* GAListingViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAListingViewCell.xib; sourceTree = "<group>"; };
+		8E4B3F97285DCAA200F4DBB2 /* GAHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHomeViewController.swift; sourceTree = "<group>"; };
+		8E4B3F99285DCAAE00F4DBB2 /* GAHomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHomeUseCase.swift; sourceTree = "<group>"; };
+		8E4B3F9B285DCABC00F4DBB2 /* GAHomeUseCaseURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHomeUseCaseURLBuilder.swift; sourceTree = "<group>"; };
+		8E4B3F9D285DCAC800F4DBB2 /* GAHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHomeViewModel.swift; sourceTree = "<group>"; };
+		8E4B3F9F285DCADF00F4DBB2 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		8E4B3FA1285DCAFA00F4DBB2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		8E4B3FA3285DCB0900F4DBB2 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		8E4B3FA5285DCB1600F4DBB2 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		8E4B3FA7285DCB2300F4DBB2 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		8E4B3FA9285DCB3400F4DBB2 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		8E4B3FAB285DCB4F00F4DBB2 /* GABackendProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GABackendProtocol.swift; sourceTree = "<group>"; };
+		8E4B3FAD285DCB5B00F4DBB2 /* GABackendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GABackendService.swift; sourceTree = "<group>"; };
+		8E4B3FAF285DCB6B00F4DBB2 /* GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
+		8E4B3FB1285DCB7800F4DBB2 /* Downsized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downsized.swift; sourceTree = "<group>"; };
+		8E4B3FB3285DCB8400F4DBB2 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		8E4B3FB5285DCB9000F4DBB2 /* Original.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Original.swift; sourceTree = "<group>"; };
+		8E4B3FB7285DCBB200F4DBB2 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		8E4B3FB9285DCBC100F4DBB2 /* AllGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGIF.swift; sourceTree = "<group>"; };
+		8E4B3FBB285DCBCD00F4DBB2 /* GIFModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFModel.swift; sourceTree = "<group>"; };
+		8E4B3FBD285DCBDA00F4DBB2 /* FavouriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModel.swift; sourceTree = "<group>"; };
+		8E4B3FC4285DD5ED00F4DBB2 /* dev.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
+		8E4B3FC6285DD62D00F4DBB2 /* debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		8E4B3FC7285DD62E00F4DBB2 /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		8E4B3FCA285DD75300F4DBB2 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		9AB3E9FF31244DDE0EE005CA /* Pods-GiphyApp.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiphyApp.dev.xcconfig"; path = "Target Support Files/Pods-GiphyApp/Pods-GiphyApp.dev.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4824A0FAFB56DD7DB8644834 /* Pods_GiphyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +134,8 @@
 			children = (
 				8E4B3F46285DC7CB00F4DBB2 /* GiphyApp */,
 				8E4B3F45285DC7CB00F4DBB2 /* Products */,
+				96FC6C80DEE817B571790B83 /* Pods */,
+				9AB33E20058CCCA4586B77B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +150,204 @@
 		8E4B3F46285DC7CB00F4DBB2 /* GiphyApp */ = {
 			isa = PBXGroup;
 			children = (
+				8E4B3FBF285DCEA700F4DBB2 /* Config */,
+				8E4B3F64285DC88200F4DBB2 /* Networking */,
+				8E4B3F63285DC87B00F4DBB2 /* Utils */,
+				8E4B3F62285DC87200F4DBB2 /* Journeys */,
+				8E4B3F61285DC86B00F4DBB2 /* UI */,
+				8E4B3F60285DC86500F4DBB2 /* Assets */,
+				8E4B3F5F285DC85A00F4DBB2 /* Image Processing */,
 				8E4B3F47285DC7CB00F4DBB2 /* AppDelegate.swift */,
 				8E4B3F49285DC7CB00F4DBB2 /* SceneDelegate.swift */,
-				8E4B3F4B285DC7CB00F4DBB2 /* ViewController.swift */,
-				8E4B3F4D285DC7CB00F4DBB2 /* Main.storyboard */,
-				8E4B3F50285DC7CD00F4DBB2 /* Assets.xcassets */,
-				8E4B3F52285DC7CD00F4DBB2 /* LaunchScreen.storyboard */,
 				8E4B3F55285DC7CD00F4DBB2 /* Info.plist */,
 			);
 			path = GiphyApp;
+			sourceTree = "<group>";
+		};
+		8E4B3F5F285DC85A00F4DBB2 /* Image Processing */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F6E285DC91F00F4DBB2 /* GAImageLoaderProtocol.swift */,
+				8E4B3F70285DC92E00F4DBB2 /* GAImageLoader.swift */,
+				8E4B3F72285DC94200F4DBB2 /* GAFavouriteStorage.swift */,
+				8E4B3F74285DC95200F4DBB2 /* GAImageCachingCore.swift */,
+				8E4B3F76285DC96300F4DBB2 /* GAFavouritesPlistBuilder.swift */,
+			);
+			path = "Image Processing";
+			sourceTree = "<group>";
+		};
+		8E4B3F60285DC86500F4DBB2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F50285DC7CD00F4DBB2 /* Assets.xcassets */,
+				8E4B3F6D285DC8F600F4DBB2 /* Animators */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8E4B3F61285DC86B00F4DBB2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F5B285DC84100F4DBB2 /* Main.storyboard */,
+				8E4B3F5D285DC84C00F4DBB2 /* LaunchScreen.storyboard */,
+				8E4B3F6C285DC8D900F4DBB2 /* CustomView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8E4B3F62285DC87200F4DBB2 /* Journeys */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F69285DC8BF00F4DBB2 /* Home */,
+				8E4B3F68285DC8B500F4DBB2 /* Favourite */,
+			);
+			path = Journeys;
+			sourceTree = "<group>";
+		};
+		8E4B3F63285DC87B00F4DBB2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F67285DC8AB00F4DBB2 /* Extensions */,
+				8E4B3F9F285DCADF00F4DBB2 /* AppStrings.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8E4B3F64285DC88200F4DBB2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F66285DC8A100F4DBB2 /* Core */,
+				8E4B3F65285DC89C00F4DBB2 /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8E4B3F65285DC89C00F4DBB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3FAF285DCB6B00F4DBB2 /* GIF.swift */,
+				8E4B3FB1285DCB7800F4DBB2 /* Downsized.swift */,
+				8E4B3FB3285DCB8400F4DBB2 /* Images.swift */,
+				8E4B3FB5285DCB9000F4DBB2 /* Original.swift */,
+				8E4B3FB7285DCBB200F4DBB2 /* Pagination.swift */,
+				8E4B3FB9285DCBC100F4DBB2 /* AllGIF.swift */,
+				8E4B3FBB285DCBCD00F4DBB2 /* GIFModel.swift */,
+				8E4B3FBD285DCBDA00F4DBB2 /* FavouriteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E4B3F66285DC8A100F4DBB2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3FAB285DCB4F00F4DBB2 /* GABackendProtocol.swift */,
+				8E4B3FAD285DCB5B00F4DBB2 /* GABackendService.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8E4B3F67285DC8AB00F4DBB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3FA1285DCAFA00F4DBB2 /* UITableView+Extension.swift */,
+				8E4B3FA3285DCB0900F4DBB2 /* UITableViewCell+Extension.swift */,
+				8E4B3FA5285DCB1600F4DBB2 /* UIImage+Extension.swift */,
+				8E4B3FA7285DCB2300F4DBB2 /* UIImageView+Extension.swift */,
+				8E4B3FA9285DCB3400F4DBB2 /* UICollectionView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8E4B3F68285DC8B500F4DBB2 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F6A285DC8C800F4DBB2 /* Cells */,
+				8E4B3F8D285DCA5C00F4DBB2 /* GAFavUseCase.swift */,
+				8E4B3F8F285DCA6B00F4DBB2 /* GAFavouriteViewController.swift */,
+				8E4B3F91285DCA7A00F4DBB2 /* GAFavouriteViewModel.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		8E4B3F69285DC8BF00F4DBB2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F6B285DC8CD00F4DBB2 /* Cells */,
+				8E4B3F97285DCAA200F4DBB2 /* GAHomeViewController.swift */,
+				8E4B3F99285DCAAE00F4DBB2 /* GAHomeUseCase.swift */,
+				8E4B3F9B285DCABC00F4DBB2 /* GAHomeUseCaseURLBuilder.swift */,
+				8E4B3F9D285DCAC800F4DBB2 /* GAHomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8E4B3F6A285DC8C800F4DBB2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F8A285DCA4B00F4DBB2 /* GAFavouriteGridCell.xib */,
+				8E4B3F89285DCA4B00F4DBB2 /* GAFavouriteTableCell.xib */,
+				8E4B3F85285DCA3100F4DBB2 /* GAFavouriteTableCell.swift */,
+				8E4B3F87285DCA3D00F4DBB2 /* GAFavouriteGridCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8E4B3F6B285DC8CD00F4DBB2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F95285DCA9400F4DBB2 /* GAListingViewCell.xib */,
+				8E4B3F93285DCA8E00F4DBB2 /* GAListingViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8E4B3F6C285DC8D900F4DBB2 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F7A285DC9CE00F4DBB2 /* GASearchView.swift */,
+				8E4B3F7C285DC9DD00F4DBB2 /* GAListingView.swift */,
+				8E4B3F7F285DC9F700F4DBB2 /* GAFullLoader.swift */,
+				8E4B3F81285DCA0500F4DBB2 /* GASegmentView.swift */,
+				8E4B3F83285DCA1A00F4DBB2 /* GAGridView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8E4B3F6D285DC8F600F4DBB2 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3F78285DC97700F4DBB2 /* loader.gif */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		8E4B3FBF285DCEA700F4DBB2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B3FC6285DD62D00F4DBB2 /* debug.xcconfig */,
+				8E4B3FC7285DD62E00F4DBB2 /* release.xcconfig */,
+				8E4B3FC4285DD5ED00F4DBB2 /* dev.xcconfig */,
+				8E4B3FCA285DD75300F4DBB2 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		96FC6C80DEE817B571790B83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				764B279681AEA5BC9ACDA373 /* Pods-GiphyApp.debug.xcconfig */,
+				39E6E12EAD020A369F2D0EAF /* Pods-GiphyApp.release.xcconfig */,
+				9AB3E9FF31244DDE0EE005CA /* Pods-GiphyApp.dev.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AB33E20058CCCA4586B77B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C5CF4596190B60B186CBDFF /* Pods_GiphyApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E4B3F58285DC7CD00F4DBB2 /* Build configuration list for PBXNativeTarget "GiphyApp" */;
 			buildPhases = (
+				990BA70A92EB05ED32C292C2 /* [CP] Check Pods Manifest.lock */,
 				8E4B3F40285DC7CB00F4DBB2 /* Sources */,
 				8E4B3F41285DC7CB00F4DBB2 /* Frameworks */,
 				8E4B3F42285DC7CB00F4DBB2 /* Resources */,
+				41AE0E1BB360CE3410EABDB8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,49 +410,116 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4B3F54285DC7CD00F4DBB2 /* LaunchScreen.storyboard in Resources */,
+				8E4B3F5E285DC84C00F4DBB2 /* LaunchScreen.storyboard in Resources */,
+				8E4B3F8B285DCA4B00F4DBB2 /* GAFavouriteTableCell.xib in Resources */,
+				8E4B3FC5285DD5ED00F4DBB2 /* dev.xcconfig in Resources */,
+				8E4B3F79285DC97700F4DBB2 /* loader.gif in Resources */,
+				8E4B3FC9285DD62E00F4DBB2 /* release.xcconfig in Resources */,
+				8E4B3F5C285DC84100F4DBB2 /* Main.storyboard in Resources */,
 				8E4B3F51285DC7CD00F4DBB2 /* Assets.xcassets in Resources */,
-				8E4B3F4F285DC7CB00F4DBB2 /* Main.storyboard in Resources */,
+				8E4B3F8C285DCA4B00F4DBB2 /* GAFavouriteGridCell.xib in Resources */,
+				8E4B3FC8285DD62E00F4DBB2 /* debug.xcconfig in Resources */,
+				8E4B3F96285DCA9400F4DBB2 /* GAListingViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41AE0E1BB360CE3410EABDB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiphyApp/Pods-GiphyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiphyApp/Pods-GiphyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiphyApp/Pods-GiphyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990BA70A92EB05ED32C292C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiphyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E4B3F40285DC7CB00F4DBB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4B3F4C285DC7CB00F4DBB2 /* ViewController.swift in Sources */,
+				8E4B3FB6285DCB9000F4DBB2 /* Original.swift in Sources */,
+				8E4B3F71285DC92E00F4DBB2 /* GAImageLoader.swift in Sources */,
+				8E4B3FBA285DCBC200F4DBB2 /* AllGIF.swift in Sources */,
+				8E4B3FB2285DCB7800F4DBB2 /* Downsized.swift in Sources */,
+				8E4B3FA4285DCB0900F4DBB2 /* UITableViewCell+Extension.swift in Sources */,
+				8E4B3F7D285DC9DD00F4DBB2 /* GAListingView.swift in Sources */,
+				8E4B3F77285DC96300F4DBB2 /* GAFavouritesPlistBuilder.swift in Sources */,
+				8E4B3F6F285DC91F00F4DBB2 /* GAImageLoaderProtocol.swift in Sources */,
+				8E4B3F9C285DCABC00F4DBB2 /* GAHomeUseCaseURLBuilder.swift in Sources */,
+				8E4B3F86285DCA3100F4DBB2 /* GAFavouriteTableCell.swift in Sources */,
+				8E4B3F8E285DCA5C00F4DBB2 /* GAFavUseCase.swift in Sources */,
+				8E4B3FAE285DCB5B00F4DBB2 /* GABackendService.swift in Sources */,
+				8E4B3FAA285DCB3400F4DBB2 /* UICollectionView+Extension.swift in Sources */,
+				8E4B3F92285DCA7A00F4DBB2 /* GAFavouriteViewModel.swift in Sources */,
+				8E4B3F90285DCA6B00F4DBB2 /* GAFavouriteViewController.swift in Sources */,
+				8E4B3F9A285DCAAE00F4DBB2 /* GAHomeUseCase.swift in Sources */,
+				8E4B3FA0285DCADF00F4DBB2 /* AppStrings.swift in Sources */,
+				8E4B3FBE285DCBDA00F4DBB2 /* FavouriteModel.swift in Sources */,
+				8E4B3FA8285DCB2300F4DBB2 /* UIImageView+Extension.swift in Sources */,
+				8E4B3FB8285DCBB200F4DBB2 /* Pagination.swift in Sources */,
 				8E4B3F48285DC7CB00F4DBB2 /* AppDelegate.swift in Sources */,
+				8E4B3FB0285DCB6B00F4DBB2 /* GIF.swift in Sources */,
+				8E4B3FA6285DCB1600F4DBB2 /* UIImage+Extension.swift in Sources */,
+				8E4B3F73285DC94200F4DBB2 /* GAFavouriteStorage.swift in Sources */,
+				8E4B3F75285DC95200F4DBB2 /* GAImageCachingCore.swift in Sources */,
+				8E4B3F9E285DCAC800F4DBB2 /* GAHomeViewModel.swift in Sources */,
+				8E4B3F7B285DC9CE00F4DBB2 /* GASearchView.swift in Sources */,
+				8E4B3F88285DCA3D00F4DBB2 /* GAFavouriteGridCell.swift in Sources */,
+				8E4B3F84285DCA1A00F4DBB2 /* GAGridView.swift in Sources */,
+				8E4B3FB4285DCB8400F4DBB2 /* Images.swift in Sources */,
+				8E4B3F82285DCA0500F4DBB2 /* GASegmentView.swift in Sources */,
 				8E4B3F4A285DC7CB00F4DBB2 /* SceneDelegate.swift in Sources */,
+				8E4B3FCB285DD75300F4DBB2 /* Config.swift in Sources */,
+				8E4B3FBC285DCBCD00F4DBB2 /* GIFModel.swift in Sources */,
+				8E4B3F80285DC9F700F4DBB2 /* GAFullLoader.swift in Sources */,
+				8E4B3F94285DCA8E00F4DBB2 /* GAListingViewCell.swift in Sources */,
+				8E4B3F98285DCAA200F4DBB2 /* GAHomeViewController.swift in Sources */,
+				8E4B3FA2285DCAFA00F4DBB2 /* UITableView+Extension.swift in Sources */,
+				8E4B3FAC285DCB4F00F4DBB2 /* GABackendProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		8E4B3F4D285DC7CB00F4DBB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E4B3F4E285DC7CB00F4DBB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8E4B3F52285DC7CD00F4DBB2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E4B3F53285DC7CD00F4DBB2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		8E4B3F56285DC7CD00F4DBB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4B3FC6285DD62D00F4DBB2 /* debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -229,6 +581,7 @@
 		};
 		8E4B3F57285DC7CD00F4DBB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4B3FC7285DD62E00F4DBB2 /* release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -284,6 +637,7 @@
 		};
 		8E4B3F59285DC7CD00F4DBB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764B279681AEA5BC9ACDA373 /* Pods-GiphyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +665,7 @@
 		};
 		8E4B3F5A285DC7CD00F4DBB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E6E12EAD020A369F2D0EAF /* Pods-GiphyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -336,6 +691,96 @@
 			};
 			name = Release;
 		};
+		8E4B3FC2285DD49800F4DBB2 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4B3FC4285DD5ED00F4DBB2 /* dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Dev;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Dev;
+		};
+		8E4B3FC3285DD49800F4DBB2 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB3E9FF31244DDE0EE005CA /* Pods-GiphyApp.dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiphyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GiphyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +788,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E4B3F56285DC7CD00F4DBB2 /* Debug */,
+				8E4B3FC2285DD49800F4DBB2 /* Dev */,
 				8E4B3F57285DC7CD00F4DBB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -352,6 +798,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E4B3F59285DC7CD00F4DBB2 /* Debug */,
+				8E4B3FC3285DD49800F4DBB2 /* Dev */,
 				8E4B3F5A285DC7CD00F4DBB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

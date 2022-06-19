@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GiphyApp
 //
-//  Created by Techolution on 18/06/22.
+//  Created by Nikhil Sakhare on 18/06/22.
 //
 
 import UIKit
@@ -11,9 +11,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+    public var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = window
+        GAImageCachingCore.defineCachingMechanism()
+        GAFavouritesPlistBuilder.build()
         return true
     }
 
