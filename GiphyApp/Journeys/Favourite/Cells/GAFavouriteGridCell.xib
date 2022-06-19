@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="WSJ-cb-6EM" customClass="GAFavouriteGridCell" customModule="GiphyApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="214" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="86X-PD-Y76">
+                <rect key="frame" x="0.0" y="0.0" width="214" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sGe-63-dVN" customClass="SDAnimatedImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="214" height="180"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sGe-63-dVN" firstAttribute="leading" secondItem="86X-PD-Y76" secondAttribute="leading" id="4kD-Y3-RO2"/>
+                    <constraint firstAttribute="trailing" secondItem="sGe-63-dVN" secondAttribute="trailing" id="WV3-4x-jFA"/>
+                    <constraint firstAttribute="bottom" secondItem="sGe-63-dVN" secondAttribute="bottom" id="gPL-7f-5fg"/>
+                    <constraint firstItem="sGe-63-dVN" firstAttribute="top" secondItem="86X-PD-Y76" secondAttribute="top" id="pod-C9-Oqt"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="214" height="180"/>
+            <connections>
+                <outlet property="favouriteImageView" destination="sGe-63-dVN" id="V3F-ss-Yo1"/>
+            </connections>
+            <point key="canvasLocation" x="-42.028985507246382" y="20.758928571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

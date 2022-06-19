@@ -1,0 +1,16 @@
+//
+//  dev.xcconfig
+//  BusinessBanking
+//
+//  Created by Terence Zama on 22/07/2019.
+//  Copyright © 2019 Backbase. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "prod.xcconfig"
+
+environment                 = dev
+APP_ICON                    = MCBAppIcon.dev
+BB_CONFIG_PATH              = assets/backbase/%@/config-dev.json
+DEBUG_FLAG                  = DEBUG
